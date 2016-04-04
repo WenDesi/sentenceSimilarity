@@ -10,11 +10,11 @@ if __name__ == '__main__':
     file_obj = FileObj(r"testSet/trainSet.txt")
     train_sentences = file_obj.read_lines()
 
-    # 测试集1
+    # 读入测试集1
     file_obj = FileObj(r"testSet/testSet1.txt")
     test1_sentences = file_obj.read_lines()
 
-    # 测试集2
+    # 读入测试集2
     file_obj = FileObj(r"testSet/testSet2.txt")
     test2_sentences = file_obj.read_lines()
 
